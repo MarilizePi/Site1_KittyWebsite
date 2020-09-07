@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button .navbar-toggler {
+  background-color: black;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-weight: 500;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+#title {
+  color: #fff;
+  background-color: #d3b7cc;
+}
+
+
+.col-lg-6 img {
+  float: right;
+}
+
+.container-fluid {
+padding: 2% 10%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+col-lg-6 h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*Features Section*/
+#features {
+  padding: 7% 15%;
+  background: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+
+/*Testimonial Section*/
+
+#testimonials {
+  text-align: center;
+  background-color: #c69e5d;
+  color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#testimonials h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+#testimonials img {
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials em {
+  font-style: normal;
+}
+
+
+#footer {
+  background-color: #e2e2ee;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+#footer p {
+  padding-top: 15px;
+  font-size: 12px;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  #title h2 {
+    margin-top: 5px;
+    margin-bottom: 3rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1rem;
+  }
+  .col-lg-6 img {
+    margin: 0;
+    padding: 0;
+    float: none;
+  }
+
+  #testimonials h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-style: italic;
+  }
+}
